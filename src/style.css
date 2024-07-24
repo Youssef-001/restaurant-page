@@ -1,0 +1,90 @@
+*,html,body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #D5B895;
+}
+
+header{
+    background-color: #F3F0E6;
+    padding: 1.4rem;
+    display:flex;
+    gap: 4rem;
+
+}
+
+button{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #A44A3F;
+    color: #F3F0E6;
+}
+
+
+.hero{
+    background-color: #8C5A32 ;
+    color: #F3F0E6;
+    height: 50vh;
+    
+    color: #F3F0E6;
+    padding: 2rem;
+    
+}
+
+.brandName{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 1rem;
+}
+
+.brandDescription{
+    font-size: 1.5rem;
+    width: 60ch;
+    margin-top: 4rem;
+    font-weight: bold;
+
+}
+
+.brandName,.brandDescription{
+    margin-left: 2rem;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.showcase{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+
+}
+
+.breadCard{
+    color: #6B8E23;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
+
+.show-header{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:10px;
+}

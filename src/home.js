@@ -47,7 +47,6 @@ const homeObject = {
 
         let showParagraph = document.createElement('p');
         showParagraph.textContent = 'Discover our range of breads';
-        mainContent.appendChild(showParagraph);
         showParagraph.classList.add("show-header")
 
         let showCase = document.createElement('div');
@@ -63,16 +62,13 @@ const homeObject = {
         showCase.appendChild(breadThree);
 
 
-        hero.appendChild(showCase);
 
+        let pageContent = document.createElement('div');
+        pageContent.className = 'pageContent';
+        pageContent.appendChild(showParagraph);
+        pageContent.appendChild(showCase);
 
-
-
-
-
-
-        
-
+        mainContent.appendChild(pageContent);
 
         return mainContent;
     }

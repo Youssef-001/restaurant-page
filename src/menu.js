@@ -2,8 +2,7 @@ import Home from './home';
 
 let newHome = Home;
 
-const menuContent = document.createElement('div');
-menuContent.className = 'menuContent';
+
 
 
 const menuObject = {
@@ -26,6 +25,8 @@ const menuObject = {
     },
 
     createMenu(){
+        const menuContent = document.createElement('div');
+menuContent.className = 'menuContent';
         let cardsObject = this.createCards();
 
 
